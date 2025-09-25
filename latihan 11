@@ -1,0 +1,8 @@
+#turple
+buah = ('apel', 'mangga', 'jeruk', 'pisang')
+angka = (1, 2, 3, 4)
+campuran = ('hello', 123, True, 3.14)
+
+print('Turple buah: ', buah)
+print('Turple angka: ', angka)
+print('Turple campuran: ', campuran)

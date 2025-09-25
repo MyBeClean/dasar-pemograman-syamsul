@@ -1,0 +1,11 @@
+gaji = 1000
+if gaji < 500:
+	bangkrut = 0.0
+elif gaji < 1500:
+	bangkrut = 0.10
+elif gaji < 10000:
+	bangkrut = 0.12
+else:
+	bangkrut = 0.45
+	
+print('gaji anda akan naik sebesar', gaji * bangkrut)

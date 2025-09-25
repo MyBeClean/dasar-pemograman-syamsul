@@ -1,0 +1,9 @@
+buah = ('apel ', 'mangga ', 'jeruk ', 'pisang ')
+
+print('elemen pertama : ', buah[0])
+print('elemen terakhir : ', buah[-1])
+
+print('dua elemen pertama : ', buah[0:2])
+print('jumlah buah : ', len(buah))
+print("apakah 'mangga' itu ada?", "mangga" in buah)
+print("apakah 'rambutan' itu ada?", "rambutan" in buah)

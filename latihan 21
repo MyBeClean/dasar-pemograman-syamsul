@@ -1,0 +1,17 @@
+n = 39
+pengingat = []
+while n > 0:
+	pengingats = n % 2
+	pengingat.insert(0, pengingats)
+	n //= 2
+print(pengingat)
+print()
+
+people = ['kevin', 'jordi', 'isal', 'baim']
+ages = [20, 64, 24, 12]
+posisi = 0
+while posisi < len(people):
+	person = people[posisi]
+	age = ages[posisi]
+	print(person, age)
+	posisi += 1

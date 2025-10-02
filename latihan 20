@@ -1,0 +1,32 @@
+for number in [0, 1, 2, 3, 4]:
+	print(number)
+print()
+
+for number in range(5):
+	print(number)
+print()
+
+surname = ['syamsul', 'isal', 'aidil']
+for posisi in range(len(surname)):
+	print(posisi, surname[posisi])
+print()
+
+surnames = ['jordi', 'leo', 'azka']
+for surname in surnames:
+	print(surname)
+print()
+
+masyarakat = ['aidil', 'isal', 'jordi', 'jery']
+ages = [15, 15, 15, 15]
+for posisi in range(len(masyarakat)):
+	orang = masyarakat[posisi]
+	umur = ages[posisi]
+	print(orang, umur)
+print()
+
+people = ['syamsul', 'aidil', 'isal', 'leo']
+ages = [15, 16, 15, 16]
+negara = ['jepang', 'afrika', 'india', 'afganistan']
+for data in zip(people, ages, negara):
+	person, age, negara = data
+	print(person, age, negara)

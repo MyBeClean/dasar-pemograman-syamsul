@@ -1,0 +1,9 @@
+nilai = int(input('masukan nilai : '))
+if nilai >= 91 and nilai <= 100:
+	print('A')
+elif nilai >= 81 and nilai <= 91:
+	print('B')
+elif nilai >= 75 and nilai <= 81:
+	print('C')
+else:
+	print('D')

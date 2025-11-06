@@ -1,0 +1,15 @@
+def tambah(a, b):
+	penjumlahan = a + b
+	
+	return penjumlahan
+	
+def kali(a, b):
+	perkalian = a * b
+	
+	return perkalian
+
+x = int(input("masukan angka pertama : "))
+y = int(input("masukan angka kedua : "))
+
+print(f"hasilnya {x}+{y} = {tambah(x, y)}")
+print(f"hasilnya {x}×{y} = {kali(x, y)}")

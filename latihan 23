@@ -1,0 +1,3 @@
+def tampilkan(nama):
+	print(f"selamat datang {nama} dikelas python")
+tampilkan("isal")
